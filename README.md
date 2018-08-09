@@ -1,14 +1,14 @@
-﻿# Mooc-grader
-
-### Descripcion
-`Mooc-grader` es un `framework` diseñado para la implementación de `notebooks` en la elaboracion y calificacion de talleres (`PROBLEMSET`) y evaluaciones (`QUIZZES`) de un curso. La calificación se hace de manera automatica mediante el uso de calificadores o `graders` registrando las notas en una hoja de calculo de Drive compartida entre el tutor y el estudiante.
-
-`Mooc-grader` cuenta con la siguiente arquitectura
-
-![arquitectura](./img/arquitectura_moocgrader.svg)
+# Prácticas de Python
 
 ### Maquina virtual
-Al ser un framework orientado a estudiantes, se recomeinda usar la siguiente [maquina virtual](https://drive.google.com/open?id=1oSmoWvcs66cBiA6rQEaH74iZfYfwn9Br). La maquina presenta una configuracion que asegura el funcionamiento del framework, aparte de eso cuenta ya con una serie de herramientas listas para su uso.
+Usaremos esta máquina virtual que tiene instalado un entorno Python Anaconda con Jupyter Notebooks disponibles en  [localhost:8008](localhost:8008) una vez que la máquina arranca.
+
+Observa la configuración de la máquina
+
+- Si tu máquina física tiene al menos 4GB de memoria configura la máquina virtual con 2GB de memoria
+Aunque casi no necesitarás un terminal, el interfaz de Jupyter Notebooks tiene un terminal para acceder a través del navegador. En cualquier caso, la máquina virtual tiene un servidor SSH en el puerto 2222 con user/user como usuario y pwd. Si tu máquina física es mac o linux usa `ssh -p 2222 user@localhost` para conectarte. Si es Windows, usa putty
+
+- Si compartes una carpeta entre la física y virtual asegúrate que el nombre con el que se comparte sea `share` (aunque el nombre de la carpeta en la máquina física puede ser distinto)
 
 ### Uso
 1. Descargar y Montar la maquina virtual.
