@@ -15,6 +15,5 @@ Aunque casi no necesitarás un terminal, el interfaz de Jupyter Notebooks tiene 
 2. Acceder mediante el navegador a  [localhost:8008](http://localhost:8008)
 4. Abrir una terminal en jupyter y clonar el repositorio
 	
-	wget https://github.com/rramosp/20182.python/archive/master.zip
-	unzip master.zip
-
+       wget https://github.com/rramosp/20182.python/archive/master.zip
+       unzip master.zip
